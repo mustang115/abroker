@@ -1,0 +1,11 @@
+FMA = EMA(C,19);
+SMA = EMA(C,40);
+CMA = MA(C,60);
+
+Buy = Cross (FMA, SMA);
+Sell = Cross (CMA, Close);
+
+SetPositionSize(1, spsShares );
+
+Short = Cross( SMA, FMA ) ; 
+Cover = Cross( Close, CMA);
