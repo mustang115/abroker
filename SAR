@@ -1,0 +1,13 @@
+//https://www.amibroker.com/guide/afl/sar.html
+SAR
+- parabolic stop-and-reverse
+
+Indicators
+(AFL 1.3)
+
+
+SYNTAX	sar( accel = 0.02, max = 0.2 )
+RETURNS	ARRAY
+FUNCTION	Calculates Parabolic SAR indicator. Acceleration is given by accel argument and maximum acceleration level is given by max argument
+EXAMPLE	sar()
+SEE ALSO
